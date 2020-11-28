@@ -1,0 +1,88 @@
+{
+  "main": {
+    "id": "db080969f825f15d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0abc52c7ae99c990",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_sidebar.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "826e934edecec9b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a8a18dec9c96686",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "481d064e8e48ad47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "507379724c6d0542",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "871b77333976c4af",
+    "type": "split",
+    "children": [
+      {
+        "id": "27ae977de14f6c08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3fa7bca47c33eea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_sidebar.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "_sidebar.md",
+    "README.md",
+    "java/using-methods.md",
+    "java/static.md",
+    "java/java.md",
+    "java/_sidebar.md",
+    "java/Untitled.md",
+    "Untitled.md"
+  ]
+}
