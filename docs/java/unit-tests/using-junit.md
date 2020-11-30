@@ -33,11 +33,14 @@ public class SomeClass {
 ```
 
 Once you have created the class in IntelliJ click the center of the class name and press alt + enter, a context menu will appear as such:
+
 ![2](https://cdn.paradaux.io/img/ldf5r.png)
 
 Click "create test" and you will get a popup as such:
+
 ![3](https://cdn.paradaux.io/img/7n72m.png)
 Press OK
+
 
 You will now receive a configuration dialogue, keep the values at their defaults. 
 ![4](https://cdn.paradaux.io/img/9o5sp.png)
@@ -75,12 +78,15 @@ class SomeClassTest {
 ## Erorrs 
 
 You will see some errors when you write some of the JUnit 5 keywords, this is fine! hover over @Test until a context menu appears,  then press alt+enter to make the more options dialogue appear, or click it with your mouse as so
+
 ![5](https://cdn.paradaux.io/img/4hiuo.png)
 
 Select the "Add JUnit 5.4 to classpath option" 
+
 ![6](https://cdn.paradaux.io/img/2ivdh.png)
 
 Another dialogue box may appear, just click OK. This is just asking you where you would like to download JUnit 5 from.
+
 ![7](https://cdn.paradaux.io/img/jvrnr.png) 
 
 Doing all this will make JUnit 5 available for you inside this project. 
@@ -156,8 +162,13 @@ You now know the basics of using JUnit 5. Try running one of our pre-prepared Un
 ## Further Reading Material
 
 https://www.baeldung.com/junit-5
+
 https://www.baeldung.com/junit-5-migration
+
 https://www.baeldung.com/junit5-test-templates
+
 https://www.baeldung.com/parameterized-tests-junit-5
+
 https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
+
 
