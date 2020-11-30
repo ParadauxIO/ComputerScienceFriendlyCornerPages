@@ -21,8 +21,6 @@ public class PerniciousNumbersTest {
         Assertions.assertTrue(PerniciousNumbers.isPernicious(100));
     }
 
-
-
     @Test
     public void isPrimeTest() {
         System.out.println("isPrime: true");
