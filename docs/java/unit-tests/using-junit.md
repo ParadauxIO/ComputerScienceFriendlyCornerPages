@@ -158,7 +158,7 @@ If you printed out anything to the console during this tme it will come up there
 
 ## Now you're a JUnit 5 Wizard !
 
-You now know the basics of using JUnit 5. Try running one of our pre-prepared Unit Tests such as [PerniciousNumbersTest](/java/unit-tests/PerniciousNumbersTest) against your assignment solutions. We're going to try and have a unit test suite for each upcoming programming assignment, but you should try to write your own too!
+You now know the basics of using JUnit 5. Try running one of our pre-prepared Unit Tests such as [PerniciousNumbersTest](/java/unit-tests/assignments/PerniciousNumbersTest.md) against your assignment solutions. We're going to try and have a unit test suite for each upcoming programming assignment, but you should try to write your own too!
 
 ## Further Reading Material
 

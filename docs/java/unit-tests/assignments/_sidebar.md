@@ -1,4 +1,3 @@
-<!-- docs/java/_sidebar.md -->
 * [Home](/)
 * [Java](java/java.md "Introduction to Programming in Java")
 	* [Using Methods](/java/using-methods.md)
