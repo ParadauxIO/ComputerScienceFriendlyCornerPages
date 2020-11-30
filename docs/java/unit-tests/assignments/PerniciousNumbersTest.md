@@ -56,6 +56,7 @@ public class PerniciousNumbersTest {
 
     @Test
     public void countBinaryOnesTest() {
+		System.out.println("countBinaryOnes: True Cases");
         Assertions.assertEquals(PerniciousNumbers.countBinaryOnes(0), 0);
         Assertions.assertEquals(PerniciousNumbers.countBinaryOnes(1), 1);
         Assertions.assertEquals(PerniciousNumbers.countBinaryOnes(3), 2);
@@ -68,6 +69,7 @@ public class PerniciousNumbersTest {
 
     @Test
     public void getBinaryString() {
+		System.out.println("getBinaryString: True Cases");
         Assertions.assertEquals(PerniciousNumbers.getBinaryString(0), "0");
         Assertions.assertEquals(PerniciousNumbers.getBinaryString(1), "1");
         Assertions.assertEquals(PerniciousNumbers.getBinaryString(-5), "-101");
