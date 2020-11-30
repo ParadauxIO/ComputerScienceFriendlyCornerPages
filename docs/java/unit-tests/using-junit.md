@@ -39,6 +39,7 @@ Once you have created the class in IntelliJ click the center of the class name a
 Click "create test" and you will get a popup as such:
 
 ![3](https://cdn.paradaux.io/img/7n72m.png)
+
 Press OK
 
 
@@ -170,5 +171,33 @@ https://www.baeldung.com/junit5-test-templates
 https://www.baeldung.com/parameterized-tests-junit-5
 
 https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
+
+## Full Example Class
+```java
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class SomeClassTest {
+    
+    @Test
+    public void addNumbersTest() {
+
+        // Positive Integers
+        Assertions.assertEquals(SomeClass.addNumbers(4, 5), 9);
+        Assertions.assertEquals(SomeClass.addNumbers(1, 1), 2);
+
+
+        // Positive and Negative Integers
+        Assertions.assertEquals(SomeClass.addNumbers(-4, 4), 0);
+        Assertions.assertEquals(SomeClass.addNumbers(-10, 5), -5);
+
+        // Negative Integers
+        Assertions.assertEquals(SomeClass.addNumbers(-4, -5), -9);
+        Assertions.assertEquals(SomeClass.addNumbers(-1, -1), -2);
+
+    }
+
+}
+```
 
 
