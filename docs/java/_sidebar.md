@@ -5,5 +5,5 @@
 	* [Using Methods](/java/using-methods.md)
 	* [Static Keyword](/java/static.md)
 	* Unit Testing
-		* [Using JUnit](/java/unit-tests/PerniciousNumbersTest.md)
-		* [PerniciousNumbersTest](/java/unit-tests/using-junit.md)
+        * [Using JUnit](/java/unit-tests/using-junit.md)
+		* [PerniciousNumbersTest](/java/unit-tests/PerniciousNumbersTest.md)
