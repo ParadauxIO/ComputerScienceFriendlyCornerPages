@@ -42,8 +42,8 @@ Click "create test" and you will get a popup as such:
 
 Press OK
 
-
 You will now receive a configuration dialogue, keep the values at their defaults. 
+
 ![4](https://cdn.paradaux.io/img/9o5sp.png)
 
 You can use the tick boxes on the bottom left to automatically generate empty test methods for each method in the class we're greating the tests for, but we're not going to do that for the purposes of this tutorial. 
