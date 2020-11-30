@@ -1,4 +1,4 @@
-	## Using Methods in Java
+## Using Methods in Java
 
 In simple terms; a method in java is a block of code which only executes when it is called upon to do so. You can pass an input to this block of code, referred to as its parameters. 
 
