@@ -3,7 +3,7 @@
 JUnit5 is a utility for unit testing code. Unit testing is the process of testing indivual portions of code to ensure they do as they're intended. It's an incredibly important process, and prevents faulty code from being pushed into production. 
 
 # IntelliJ IDEA
-This guide assumes you're using the latest version of IntelliJ IDEA (20202..4 at the time of writing)
+This guide assumes you're using the latest version of IntelliJ IDEA (20202.2.4 at the time of writing)
 
 Write your program with some methods you wish to test. I will be using an example project for this.
 
