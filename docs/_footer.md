@@ -1,0 +1,1 @@
+Materials are licensed by GPLv3 - © 2020 [Paradaux](https://paradaux.io)
