@@ -33,11 +33,8 @@
 	- cheat sheet
 
 - discord
-	- getting verified
-	- rules
 	- getting unbanned
-	- joining
-	- bot
+	- getting access to your personal data
 
 - mathematics 
 	- make it exist
