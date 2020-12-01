@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 * [Home](/)
-* [Java](java/java.md "Introduction to Programming in Java")
+* [Java](java/java.md)
 	* [Using Methods](/java/using-methods.md)
 	* [Static Keyword](/java/static.md)
 	* Unit Testing

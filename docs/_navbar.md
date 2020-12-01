@@ -4,6 +4,6 @@
   * [Premade Unit Tests](/java/unit-tests/assignments/premade.md)
 * Discord
 	* [Getting Verified](/discord/getting-verified.md)
-	* [Joining](/discord/joining.md)
-	* [Rules](/discord/rules.md)
+	* [Discord Bot Information](/discord/bot.md)
+	* [Discord Rules](/discord/rules.md)
 * [Dictionary](/dictionary.md)
