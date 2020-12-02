@@ -1,5 +1,5 @@
 - java
-	- OOP fundimentals
+	- OOP fundamentals
 	- unit testing
 		- unit testing system.out (setStream)
 	- dictionary improvements
@@ -22,10 +22,13 @@
 		-  configuring
 		-  theming 
 	- hotswap (dcevm/hotswapagent)
-
+	- design patterns
+- literals
+	
 - General CS
 	- git
 	- regex
+	- two's compliment
 - data structures and algorithms
 	
 - armasm
