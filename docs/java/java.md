@@ -12,9 +12,9 @@ Here is a directory of all of the available java-related articles.
 
 ## Getting to Grips with OOP in Java [OOP]
 
-| Article                                | Description                                         | Date Added/Meta       |
-| -------------------------------------- | --------------------------------------------------- | --------------------- |
-| [Static Keyword](/java//oop/static.md) | Learn how to use the `static` keyword appropriately | [WIP]] Began 30-11-20 |
+| Article                               | Description                                         | Date Added/Meta       |
+| ------------------------------------- | --------------------------------------------------- | --------------------- |
+| [Static Keyword](/java/oop/static.md) | Learn how to use the `static` keyword appropriately | [WIP]] Began 30-11-20 |
 ## Unit Testing
 
 | Article                                                      | Description                                           | Date Added/Meta |
