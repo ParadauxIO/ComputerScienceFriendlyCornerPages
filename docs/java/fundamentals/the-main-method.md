@@ -1,4 +1,4 @@
-## Using Methods in Java
+## The Main Method
 
 In simple terms; a method in java is a block of code which only executes when it is called upon to do so. You can pass an input to this block of code, referred to as its parameters. 
 
@@ -7,7 +7,8 @@ Methods are used to perform particular actions over and over again, so you're no
 You have come across one method already, the "main" method. 
 
 ## The Main Method
-The main() method is called the entry point of the programme. When you run your programme what you're doing is calling the main method. If you provide command-line arguments they will be passed (space-seperated) as the String[] referred to as args. 
+
+The main() method is called the entry point of the programme. When you run your programme what you're doing is calling the main method. If you provide command-line arguments they will be passed (space-separated) as the String[] referred to as "args." 
 
 ```java
 public static void main() {

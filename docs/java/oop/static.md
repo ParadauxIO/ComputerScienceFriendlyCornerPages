@@ -54,4 +54,8 @@ static int BookCount = 456;
 
 The amount of books is a piece of information that won't change for a particular book, so we can use a static variable so we can access the same variable across instances of that class. 
 
-The static keyword is u
+
+
+## Incomplete Notice.
+
+This file is still under construction.
