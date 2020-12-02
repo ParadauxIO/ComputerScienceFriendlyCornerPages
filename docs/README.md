@@ -11,11 +11,14 @@ This website is still in early development, please report any issues faced with 
 
 ### Contributing
 
-I (Rían) am not taking pure CS, so I would love if people were willing to submit markdown notes and resources for pure CS topics. You can find the github repository [here](https://github.com/ParadauxIO/ComputerScienceFriendlyCornerPages)
+I (Rían) am not taking pure CS, so I would love if people were willing to submit markdown notes and resources for pure CS topics. You can find the GitHub repository [here](https://github.com/ParadauxIO/ComputerScienceFriendlyCornerPages)
 
 If you don't know how to use git, it's a planned tutorial
-
 
 ### Roadmap
 
 You can see a list of planned pages [here](/planned.md)
+
+## Licensing 
+
+All materials written by our contributors are assumed to be under GPL unless otherwise stated. You can find the copy included with the source of this website [here](/LICENSE.md).
