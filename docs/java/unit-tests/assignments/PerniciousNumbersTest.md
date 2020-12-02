@@ -1,4 +1,5 @@
 # PerniciousNumbersTest
+Please note that all future tests will be parameterised. Please see https://www.baeldung.com/parameterized-tests-junit-5 if you have difficulty understanding them. It just needs to less verbosity.  
 
 ```java
 import org.junit.jupiter.api.Assertions;

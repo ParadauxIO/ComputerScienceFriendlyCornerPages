@@ -20,18 +20,25 @@
 		-  debugging
 		-  running unit tests
 		-  configuring
-		-  themeing 
+		-  theming 
 	- hotswap (dcevm/hotswapagent)
 
 - General CS
 	- git
 	- regex
-
+- data structures and algorithms
+	
 - armasm
 	- make it exist
 	- ctrl flow
 	- cheat sheet
-
+- masks
+	- bit manipulation
+	- templates for control flow
+	- watch expressions
+	- view memory
+	- tips
+	
 - discord
 	- getting unbanned
 	- getting access to your personal data
