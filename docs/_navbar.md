@@ -2,12 +2,17 @@
   * [Directory](/arm/arm-assembly.md)
   * [Cheat Sheet](/arm/resources/cheat-sheet.md)
 * Java
-  * Directory
-  * [Using Methods](/java/using-methods.md)
-  * [Using JUnit](/java/unit-tests/using-junit.md)
-  * [Premade Unit Tests](/java/unit-tests/assignments/premade.md)
+  * [Directory](/java/java.md)
+  * [Control Flow](/java/control-flow/control-flow.md)
+  * [Exceptions](/java/exceptions/exceptions.md)
+  * [Fundamentals](/java/fundamentals/fundamentals.md)
+  * [OOP](/java/oop/oop.md)
+  * [Unit Testing](/java/unit-tests/unit-testing.md)
 * Discord
-	* [Getting Verified](/discord/getting-verified.md)
-	* [Discord Bot Information](/discord/bot.md)
-	* [Discord Rules](/discord/rules.md)
+    * [Directory](/discord/discord.md)
+    * [Getting Verified](/discord/getting-verified.md)
+    * [Discord Bot Information](/discord/bot.md)
+    * [Discord Rules](/discord/rules.md)
 * [Dictionary](/dictionary.md)
+* [Contact us!](mailto:webmaster@csfriendlycorner.com)
+
