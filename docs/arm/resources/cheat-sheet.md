@@ -94,7 +94,7 @@ Most of these you do not need to know for an introduction to computing course.
 MNEMONIC{S}{condition} {Rd}, Operand1, Operand2
 ```
 
-# Examples of Arm Instructions
+## Examples of Arm Instructions
 
 This is by no means a complete list, but it does contain the most common instructions you will come across as a beginner.
 
@@ -190,6 +190,6 @@ Branch conditions are used by placing them directly after the letter B to form a
 
 <sup>1</sup> CS and HS are functionally the same as they check the same condition codes. The Same goes for CC and LO. 
 
-# More Coming Soon !
+## More Coming Soon !
 
 This page is rather rushed and is actually just a copy and paste of my existing armasm notes taken throughout MT in my JF year from a variety of sources. 
