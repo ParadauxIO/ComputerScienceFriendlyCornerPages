@@ -1,4 +1,8 @@
+* Arm
+  * [Directory](/arm/arm-assembly.md)
+  * [Cheat Sheet](/arm/resources/cheat-sheet.md)
 * Java
+  * Directory
   * [Using Methods](/java/using-methods.md)
   * [Using JUnit](/java/unit-tests/using-junit.md)
   * [Premade Unit Tests](/java/unit-tests/assignments/premade.md)

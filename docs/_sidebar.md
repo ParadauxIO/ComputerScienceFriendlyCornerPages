@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 * [Home](/)
-
+* [Arm](/arm/arm-assembly.md)
+  * [Cheat Sheet](/arm/resources/cheat-sheet.md)
 * [Java](java/java.md)
 	* Fundamentals
 	
@@ -26,7 +27,6 @@
       	* [PerniciousNumbersTest](/java/unit-tests/assignments/PerniciousNumbersTest.md)
       	* [Median](/java/unit-tests/assignments/MedianTest.md)
       	* [GradeComputationTest](/java/unit-tests/assignments/GradeComputationTest.md)
-	
 * [Dictionary](/dictionary.md)
 * [Discord](/discord/discord.md)
     * [Discord Bot](/discord/bot.md)
