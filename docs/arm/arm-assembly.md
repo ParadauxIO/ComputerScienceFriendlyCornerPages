@@ -1,18 +1,10 @@
-Here is a direcotry of all of the availableArm Assembly-related 
+# Arm Assembly
 
-## Getting to Grips with Java
-| Article | Description | Date Added/Meta |
-| ------  | ------------  | ------------ |
-[Using Methods](/java/unit-tests/assignments/ThreeNumbersTest.md) | Learn how methods are declared and used. |30-11-2020
+Here is a directory of all of the available armasm-related articles.
 
-## Getting to Grips with OOP in Java
+## Resources
 
-| Article | Description | Date Added |
-| ------  | ------------  | ------------ |
-[Static Keyword](/java/unit-tests/assignments/ThreeNumbersTest.md) | Work in progress explanation of `static` | 30-11-20
+| Article                                      | Description                                                  | Date Added/Meta |
+| -------------------------------------------- | ------------------------------------------------------------ | --------------- |
+| [Cheat Sheet](/arm/resources/cheat-sheet.md) | A Cheat-sheet containing shorthand branch conditions and control-flow templates. | 02/12/2020      |
 
-## Unit Testing
-| Article | Description | Date Added |
-| ------  | ------------  | ------------ |
-[Using JUnit](/java/unit-tests/using-junit.md) | Learn how to use JUnit to test your Java Classes!  |30-11-20
-[Premade Unit Tests](/java/unit-tests/assignments/premade.md) | Directory listing all pre-made assignment unit tests. | 30-11-20 
