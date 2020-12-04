@@ -10,12 +10,12 @@ This list is probably out of date or incomplete. If you have any ideas for artic
         - Getters/Setters
         - Fields
         - MemberData
-        - Inheritence
+        - Inheritance
         - Abstraction
         - Encapsulation
         - Polymorphism
         - Reflection
-        - Declaration / Intialisation
+        - Declaration / Initialisation
         - Methods
     - Concurrency
     - Fundamentals
@@ -78,6 +78,7 @@ This list is probably out of date or incomplete. If you have any ideas for artic
 
     -   Control Flow
     -   Bit Manipulation
+        
         -   Masks
     -   Memory Interaction
     -   Subroutines
@@ -87,7 +88,8 @@ This list is probably out of date or incomplete. If you have any ideas for artic
         -   Controls
         -   Breakpoints
         -   Breakpoint Conditions
-        -   Watch Expressions
+        
+            
 
     
 
