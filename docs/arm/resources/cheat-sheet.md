@@ -37,7 +37,9 @@
 | STR**H** R#<sub>1</sub>,  [R#<sub>2</sub>]  | Store an unsigned half-word from memory into address R#<sub>2</sub> from the register R#<sub>1</sub> |
 | STR**SH** R#<sub>1</sub>,  [R#<sub>2</sub>] | Store a signed half-word into address in R#<sub>2</sub> from the register R#<sub>1</sub> |
 | STR**B** R#<sub>1</sub>,  [R#<sub>2</sub>]  | Store an unsigned byte into address in R#<sub>2 </sub>from the register R#<sub>1</sub> |
-| STR**SB** R#<sub>1</sub>,  [R#<sub>2</sub>] | Store a signed byte into address in R#<sub>2 </sub> from the register R#<sub>1</sub> |
+| STR**SB** R#<sub>1</sub>,  [R#<sub>2</sub>] | Store a signed byte into address in R#<sub>2 </sub> from the register R#<sub>1</sub> <sup>**†**</sup> |
+
+<sup>**†**</sup> STR**SB** does not exist in Cortex M4 assembly language as the distinction between signed and unsigned bytes is unnecessary. 
 
 ## Endianness
 
