@@ -119,7 +119,7 @@ This is by no means a complete list, but it does contain the most common instruc
 
 Due to ARM RISC Limitations (and how they dealt out bits) there was only 12 bits left of the 32 bit instruction for immediate values, Those 12 bits are then further split up into an 8 bit number and a 4 bit rotation (ROR) field this means immediate values have to be represented as a value between 0 and 255 or be constructible by performing 2 right-rotate operations (bytes rotated by an even number.) 
 
-Immediate values are referenced by placing a # before them. Some assemblers also support other forms of literals you may be used to in high-level languages such as negative twos-complement integers (signified by a - prefix) e.g: ``#-5` or an ascii character (char) signified by the character in question being placed in single quotes e.g: `#'G'`  
+Immediate values are referenced by placing a # before them. Some assemblers also support other forms of literals you may be used to in high-level languages such as negative twos-complement integers (signified by a - prefix) e.g: `#-5` or an ascii character (char) signified by the character in question being placed in single quotes e.g: `#'G'`  
 
 To be on the safe side, I would suggest using LDR for any immediate value over 255, if you do not have access to a debugger; such as in a written examination. 
 
