@@ -13,6 +13,6 @@
     * [Getting Verified](/discord/getting-verified.md)
     * [Discord Bot Information](/discord/bot.md)
     * [Discord Rules](/discord/rules.md)
-* [Dictionary](/dictionary.md)
+* [Resources](/resources)
 * [Contact us!](mailto:webmaster@csfriendlycorner.com)
 
