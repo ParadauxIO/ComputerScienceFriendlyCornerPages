@@ -175,8 +175,109 @@ if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
 }
 ```
 
+# LOOPS
+
+Loops are bodies of code which are repeated. There are two primary forms of loops I'll be looking at:
+
+-   While loops
+-   For loops
+
+## While Loop
+
+The while loop is the "if statement" of loops. It contains a simple condition check, which WHILE true will repeat the body of code below it.
+
+```pseudocode
+while (true) {
+	print("Hello, World!");
+}
+```
+
+This loop will repeat forever, as there is no way true would ever be false. This is known as an `infinite` loop and are usually to be avoided. 
+
+We can create the above loop very simply. 
+
+```assembly
+Main:
+
+WhileTrue:
+	[...]
+	
+	b WhileTrue
+```
+
+Any code placed in that loop will be repeated continuously, forever. This is because we are *unconditionally* branching back to the top of the loop after each execution.
+
+We can place a condition at the start or at the end, placing the condition check at the end will ensure that the code is executed at least once, this is usually referred to as a `do-while` loop 
+
+```pseudocode
+x = 0;
+do {
+  print("Hello, World");
+} while (x < 5);
+```
+
+```assembly
+Main:
+	LDR R0, =0
+Do:
+	[...] @ Print or whatever you like
+	
+	CMP R0, #5
+	BHS EndLoop
+	b Do
+EndLoop:
+
+End_Main:
+```
+
+or a traditional while-loop equivilent
+
+```assembly
+Main:
+	LDR R0, =0
+Do:
+	CMP R0, #5
+	BHS EndLoop
+	
+	[...] @ Print or whatever you like
+	
+	b Do
+EndLoop:
+
+End_Main:
+
+```
+
+```pseudocode
+while (x < 5) {
+	print("Hello, World!")
+}
+```
+
+There is, however an issue with both of those loops, at no point do we update the value of x inside the loop, thus they will continue to execute forever, which is most likely an unwanted conclusion. 
+
+To solve this we need to increment (increase by) x by a value on each iteration (each time the body is executed)
+
+```assembly
+Main:
+	LDR R0, =0
+Do:
+	CMP R0, #5
+	BHS EndLoop
+	
+	[...] @ Print or whatever you like
+	
+	ADD R0, R0, #1
+	b Do
+EndLoop:
+
+End_Main:
+```
 
 
 
+
+
+​		
 
 STUB: To be continued with more English explanations. 
