@@ -9,6 +9,7 @@ Suggest Additions to the resource list / Report dead links using `resources@csfr
 | [**Mathematics**](/resources?id=mathematics)                 |
 | [**Linguistics**](/resources?id=linguistics)                 |
 | [**System Administration / Self Hosting**](/resources?id=system-administration-self-hosting-electronics) |
+| [**Meta / Guides**](/resources?id=meta-guides)               |
 
 ## Computer Science
 
@@ -57,3 +58,10 @@ Suggest Additions to the resource list / Report dead links using `resources@csfr
 | [DU Netsoc's Webinar Series](https://www.youtube.com/channel/UCKOOtulGU4_rllgRI3cshMw) | DU Netsoc's recorded events.                                 | 16/12/2020     |
 | [Raspberry Pi Getting Started](https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started) | Learn how to use the world's smallest consumer computer!     | 16/12/2020     |
 | [Arduino Introduction](https://www.arduino.cc/en/guide/introduction) | Learn how to make use of this incredibly useful Microcontroller | 16/12/2020     |
+
+## Meta / Guides
+
+| Name / Link                                                  | Description                                                  | Date Added[][] |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
+| [Lydia's First Year Survival Guide](https://github.com/LydiaUwU/TCDCS-First-Year-Survival-Guide) | Good resource for getting your bearings / Setting up software for your first year. | 01/02/2021     |
+
