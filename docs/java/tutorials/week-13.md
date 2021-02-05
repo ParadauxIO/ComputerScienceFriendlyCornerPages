@@ -53,23 +53,36 @@ Intialise the values of `Swap` , swap the values -- then print them out to the c
 
 ```java
 import java.time.LocalDate;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        BankCustomer bankCustomer = new BankCustomer(573636363L, "Rían Errity", "Main Street, Celbridge", LocalDate.parse("2002-05-13"));
+        Scanner scanner = new Scanner(System.in);
 
-        Swap twoNumbers = new Swap(15, 56);
-        System.out.printf("Number one: %d, Number two: %d&n", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo());
+        System.out.print("Enter two space-separated numbers: ");
+        Swap twoNumbers = new Swap(scanner.nextInt(), scanner.nextInt());
+        System.out.printf("Number one: %d, Number two: %d%n", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo());
         twoNumbers.swap();
         System.out.printf("Number one: %d, Number two: %d%n", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo());
 
+        BankCustomer bankCustomer = new BankCustomer(573636363L, "Rían Errity", "Main Street, Celbridge", LocalDate.parse("2002-05-13"));
     }
 }
+
 ```
 
-## BankCustomer.java (Including Constructor)
+Example console input/output:
+
+```
+$ java Main
+Enter two space-separated numbers: 45 78
+Number one: 45, Number two: 78
+Number one: 78, Number two: 45
+```
+
+BankCustomer.java (Including Constructor)
 
 ```java
 import java.time.LocalDate;
