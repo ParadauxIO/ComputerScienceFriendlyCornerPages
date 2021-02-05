@@ -57,18 +57,16 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        
-        BankCustomer bankCustomer = new BankCustomer(573636363L, "Rían Errity",
-                                                     "Main Street, Celbridge",
-                                                     LocalDate.parse("2002-05-13"));
+
+        BankCustomer bankCustomer = new BankCustomer(573636363L, "Rían Errity", "Main Street, Celbridge", LocalDate.parse("2002-05-13"));
 
         Swap twoNumbers = new Swap(15, 56);
-        System.out.printf("Number one: %d, Number two: %d", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo())
+        System.out.printf("Number one: %d, Number two: %d&n", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo());
         twoNumbers.swap();
-        System.out.printf("Number one: %d, Number two: %d", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo())
+        System.out.printf("Number one: %d, Number two: %d%n", twoNumbers.getNumberOne(), twoNumbers.getNumberTwo());
+
     }
 }
-
 ```
 
 ## BankCustomer.java (Including Constructor)
@@ -142,9 +140,9 @@ public class Swap {
     public void swap() {
         numberOne += numberTwo;
         numberTwo = numberOne - numberTwo;
-        numberOne = numberOne - numberTwo;
+        numberOne -= numberTwo;
     }
-    
+
     public int getNumberOne() {
         return numberOne;
     }
