@@ -58,7 +58,9 @@ public class Lightbulb {
 }
 ```
 
-// TODO: Inheritence implementation of classes. 
+### Benefits of using a class structure
+
+The concept of classes allows us to create complex, modular and understandable applications in Java, making them the building blocks of all of object-oriented programming, in any OOP programming language.
 
 ## Objects
 
