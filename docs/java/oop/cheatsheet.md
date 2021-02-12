@@ -2,6 +2,8 @@
 
 >   This is an incomplete article, and will continue to be extended over time, it also makes great use of code examples, while you may not understand every aspect of the provided code provided, it is there for you to be able to copy and paste into your own IDE (or online IDEs such as codespaces or Repl.it in order to have a play around with it. )
 
+>   **N.B**: This is not a beginners guide, it is a loosely written tutorial which is aimed to be more of a reference guide, than a step-by-step process for learning object oriented programming.
+
 >   Author: [Rían](https://github.com/ParadauxIO) 11/02/2020
 
 ## What is object-oriented programming
