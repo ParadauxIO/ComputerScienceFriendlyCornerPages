@@ -138,10 +138,93 @@ Notice how the methods which return doubles are prefixed with `get` where as the
 
 [More coming soon]
 
+### Declaration, Instantiation and  Initialisation 
+
+#### Declaration
+
+Declaring the scope of the object, the value for objects defaults to `null`
+
+```java
+CoffeeMachine coffeeMachine; // Declare the existence of our object, sets the scope and sets the value to null.
+```
+
+### Instantiation
+
+Creating an `instance` of the class, with the state as set in the default constructor (which is empty if not specified.) 
+
+```java
+coffeeMachine = new CoffeeMachine(); // Call the default (empty) constructor.
+```
+
+### Initialisation
+
+Giving values to the fields inside of your class, via `setters` or via a more complex, `parameterised` constructor
+
+```java
+coffeeMachine.setFuelAmount(450);
+coffeeMachine.setBeanAmount(175);
+
+// or if an appopriate constructor is defined
+coffeeMachine = new CoffeeMachine(450, 175); // Instantiation and Initialisation in one step. 
+```
+
+
+
+## Encapsulation
+
+Encapsulaiton is the process of hiding the inner workings of a class to external observers, through the use of `access modifiers` and `methods` such as the `getters` and `setters` outlined earlier in the guide. 
+
+### Access Modifiers
+
+-   `private`
+
+    Members can not be accessed directly from outside the class, keeping it hidden from other classes, as well as its subclasses. This is the most useful, as it prevents outside forces from manipulating our objects directly. 
+
+-   `public` 
+
+    This allows members to be directly accessed by anything within the same scope as the object. 
+
+-   `protected`
+
+    Protected lies in between `private` and `public` and its primary usecase is within the context of `inheritence` where we have classes extending from eachother, and creating classes out of other classes, `polymorphism`. Protected members can be accessed within the same package, however outside the package they can still be accessed through an inherited class. 
+
+-   `default` (package-private -- no access modifier specifed.)
+
+    If you don't give a field or method an access modifier, it is considered to be `default` access, which is similar in practice to `protected` without the ability to access via a subclass.
+
+### Fields
+
+I have thrown around the term `field` pretty liberally before really explaining what they are, but they are the `members` of the class, or the variables which differenciate different `instances` of the class. For example, within a class labelled `Dog` we might have the following `fields` to differenciate different types of dog: 
+
+-   -age : int
+-   -breed : String
+-   -name : String
+-   -owner : String
+-   -birthday : Date
+
+These are unique to each `instance` of the class, and are what we are trying to protect through `encapsulation`.
+
+### Static Fields
+
+Fields which are denoted as `static` are not specified to any one instance of a class, they are common to all. `static` is usally reserved for constants, which are denoted as `static final` variables, in that they are static (do not change across instances) and final (the value will never change from its initial value) 
+
+Static fields can be assigned values using a special block of code referred to as a `static initialiser` It is called implicitly (automatically) by referencing a static member within the class, or at the creation of the first instance of that class. 
+
+```java
+public class SomeClass {
+    
+    private static int z;
+    
+    // Static initialiser block
+    static {
+        z = 15;
+    }
+}
+```
+
+The above static initialiser block simply sets the value of `z` to be fifteen, but we can run any abitrary code within the static initialisor block. The only issue with this, is that it only has a scope which allows it to access other static fields, and can not be provided any inputs from the constructor or anything of that sort, by virtue of being `static`. They are great for creating relationships between various static fields which rely on eachother, but don't need to be each be manually updated by a human. 
 
 
 
 
 
-
- 
