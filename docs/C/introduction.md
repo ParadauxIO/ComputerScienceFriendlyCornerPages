@@ -1,6 +1,6 @@
 ## Introduction to C
 
-#### A Brief history
+### A Brief history
 Created by Dennis Ritchie at AT&T Labs in 1972.
 Original Unix implemented in assembly, but portable.
 It had 27 keywords originally and was simple to write.
@@ -41,10 +41,10 @@ In C, we need to compile and link files. Here are the methods of compiling we wi
 
 - Compile the program to object code
 ```c
-clang -c hello.c // you can also use gcc -c hello.c
+clang -c hello.c // gcc -c hello.c
 ```
 
-clang is a compiler that produces better warnings and faster compilation however gcc is widely used and works well.
+clang is a compiler that produces better warnings and faster compilation sometimes however gcc is widely used and works well.
 
 - Link the object code to executable file
 ```c
