@@ -4,6 +4,7 @@
 * [Arm](/arm/arm-assembly.md)
   * [Cheat Sheet](/arm/resources/cheat-sheet.md)
   * [Using Watch Expressions](/arm/resources/using-watch-expressions)
+* [C](/C/c.md)
 * [Java](java/java.md)
 	* [Fundamentals](/java/fundamentals/fundamentals.md)
 	* [The Main Method](/java/fundamentals/the-main-method.md)
