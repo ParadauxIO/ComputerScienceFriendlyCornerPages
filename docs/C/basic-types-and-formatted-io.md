@@ -37,7 +37,7 @@ In a 32-bit machine
 ## Conversion Specifiers
 ```
 | Specifier | Meaning				      |
-| --------  | --------------------------------------- |
+| --------- | --------------------------------------- |
 | %c        | Single character			      |
 | %d        | Signed decimal integer		      |
 | %x        | Hexadecimal number		      |
