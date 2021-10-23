@@ -19,34 +19,34 @@
 In a 32-bit machine
 
 ```
-| Type              	 |  Keyword		    | Bytes | Range
+| Type              	 |  Keyword         | Bytes | Range
 | ---------------------- | ---------------- | ----- | --------------------------------------------- |
-| character				 |   char			|   1   |   -128->127									|
-| integer				 |   int			|   4   |   -2,147,483,648->2,147,438,647				|
-| short integer			 |   short			|   2   |   -32768->32367								|
-| long integer			 |   long			|   4   |   -2,147,483,648->2,147,438,647				|	
-| long long integer		 |   long long		|   8   |   -9223372036854775808->9223372036854775807	|	
-| unsigned character	 |   unsigned char	|   1   |   0->255										|
-| unsigned integer		 |   unsigned int	|   2   |   0->4,294,967,295							|	
-| unsigned short integer |   unsigned short	|   2   |   0->65535									|
-| unsigned long integer	 |   unsigned long	|   4   |   0->4,294,967,295							|
-| single-precision		 |   float			|   4   |   1.2E-38->3.4E38								|
-| double-precision		 |   double			|   8   |   2.2E-308->1.8E308							|
+| character		 |   char	    |   1   |   -128->127				    |
+| integer		 |   int	    |   4   |   -2,147,483,648->2,147,438,647		    |
+| short integer		 |   short     	    |   2   |   -32768->32367				    |
+| long integer		 |   long	    |   4   |   -2,147,483,648->2,147,438,647		    |	
+| long long integer      |   long long	    |   8   |   -9223372036854775808->9223372036854775807   |	
+| unsigned character	 |   unsigned char  |   1   |   0->255					    |
+| unsigned integer       |   unsigned int   |   2   |   0->4,294,967,295			    |	
+| unsigned short integer |   unsigned short |   2   |   0->65535				    |
+| unsigned long integer	 |   unsigned long  |   4   |   0->4,294,967,295			    |
+| single-precision	 |   float	    |   4   |   1.2E-38->3.4E38				    |
+| double-precision	 |   double	    |   8   |   2.2E-308->1.8E308			    |
 ```
 
 ## Conversion Specifiers
 ```
-| Specifier | Meaning								  |
+| Specifier | Meaning				      |
 | --------  | --------------------------------------- |
-| %c        | Single character					 	  |
-| %d        | Signed decimal integer				  |
-| %x        | Hexadecimal number					  |
-| %f        | Decimal floating point number			  |
+| %c        | Single character			      |
+| %d        | Signed decimal integer		      |
+| %x        | Hexadecimal number		      |
+| %f        | Decimal floating point number	      |
 | %e        | Floating point in "scientific notation" |
-| %s        | Character string						  |
-| %u        | Unsigned decimal integer				  |
-| %%        | print % sign							  |
-| %ld, %lld   | long, and long long					  |
+| %s        | Character string			      |
+| %u        | Unsigned decimal integer		      |
+| %%        | print % sign			      |
+| %ld, %lld | long, and long long		      |
 ```
 
 There must be one conversion specifier for each argument being printed or inputted e.g. ``printf("%d %f %c", someInt, someDouble, someChar)``
@@ -67,17 +67,17 @@ Unfortunately, %ld must be used with printf, but %lf must not
 
 ## Escape Characters
 ```
-| Sequence | Meaning									|
+| Sequence | Meaning					|
 | -------- | ------------------------------------------ |
-| \a       | Bell (alert)								|
-| \b       | Backspace									|
-| \n       | Newline									|
-| \t       | Horizontal tab								|
-| \\       | Backslash									|	
-| \'       | Single quote								|
-| \"       | Double quotation							|	
-| \xhh     | ASCII char specified by hex digits			|
-| \ooo     | ASCII char specified by octal digits		|
+| \a       | Bell (alert)				|
+| \b       | Backspace					|
+| \n       | Newline					|
+| \t       | Horizontal tab				|
+| \\       | Backslash					|	
+| \'       | Single quote				|
+| \"       | Double quotation				|	
+| \xhh     | ASCII char specified by hex digits		|
+| \ooo     | ASCII char specified by octal digits	|
 ```
 
 ## Type Conversion (Casting)
@@ -117,7 +117,7 @@ This code would result in ``printf("Size of char = %2d byte(s)\n", sizeof(char))
 ```
 | sizeof()       | Result in Bytes |
 | -------------- | --------------- |
-| char			 | 1 byte(s)       |
+| char		 | 1 byte(s)       |
 | short          | 2 bytes(s)      |
 | int            | 4 byte(s)       |
 | long           | 4 byte(s)       |
@@ -126,8 +126,8 @@ This code would result in ``printf("Size of char = %2d byte(s)\n", sizeof(char))
 | unsigned int   | 4 byte(s)       | 
 | unsigned short | 2 byte(s)       |
 | unsigned long  | 4 byte(s)       |
-| float			 | 4 byte(s)       |
-| double		 | 8 byte(s)       |
+| float		 | 4 byte(s)       |
+| double	 | 8 byte(s)       |
 | long double    | 16 byte(s)      |
 ```
 
