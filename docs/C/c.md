@@ -1,4 +1,4 @@
-#C
+# C
 
 Here is a directory of all of the available c-related articles.
 
